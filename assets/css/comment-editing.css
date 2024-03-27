@@ -1,0 +1,360 @@
+.tmjbd-edit-comment {
+	margin: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.tmjbd-edit-comment .tmjbd-comment-edit-buttons button {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.tmjbd-edit-comment .tmjbd-comment-edit-buttons button .tmjbd-comment-delete {
+		float: none;
+	}
+}
+
+.tmjbd-edit-comment .tmjbd-comment-edit-buttons svg {
+	margin-right: 10px;
+}
+
+.tmjbd-edit-comment .tmjbd-timer-cancel {
+	display: block;
+	float: right;
+	margin-top: 15px;
+	font-size: .8em;
+}
+
+.tmjbd-edit-comment .tmjbd-timer-cancel:after {
+	display: table;
+	content: "";
+	clear: right;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper {
+	margin: 10px 0;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons button,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper button {
+	margin-right: 10px;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons button:last-of-type,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper button:last-of-type {
+	margin-right: 0;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons svg,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper svg {
+	margin-right: 10px;
+	fill: currentColor;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons .tmjbd-comment-delete,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete {
+	float: right;
+}
+
+.tmjbd-edit-comment.default .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.default .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	margin-top: 10px;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper {
+	margin: 10px 0;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons button,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper button {
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	font-weight: 700;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons button:last-of-type,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper button:last-of-type {
+	margin-right: 0;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-save,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-save {
+	background-color: #4caf50;
+	color: #fff;
+	font-size: 20px;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-save:hover,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-save:hover {
+	background-color: #3d8b40;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-save svg,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-save svg {
+	margin-right: 10px;
+	fill: #fff;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-cancel,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-cancel {
+	background-color: #e7e7e7;
+	color: #000;
+	font-size: 20px;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-cancel:hover,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-cancel:hover {
+	background-color: #cecece;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-cancel svg,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-cancel svg {
+	margin-right: 10px;
+	fill: #000;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-timer-cancel,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel {
+	background-color: #f44336;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-timer-cancel:hover,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel:hover {
+	background-color: #ea1c0d;
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-timer-cancel:focus,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel:focus {
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-timer-cancel svg,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel svg {
+	position: relative;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	fill: #fff;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-delete,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete {
+	background-color: #f44336;
+	color: #fff;
+	font-size: 20px;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-delete:hover,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete:hover {
+	background-color: #ea1c0d;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-delete svg,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete svg {
+	margin-right: 10px;
+	fill: #fff;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-comment-delete,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete {
+	float: right;
+}
+
+.tmjbd-edit-comment.regular .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.regular .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	margin-top: 10px;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper {
+	margin: 10px 0;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons button,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper button {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px 20px;
+	background-color: #595959;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons button:hover,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper button:hover {
+	background-color: #1a1a1a;
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons button:focus,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper button:focus {
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons button svg,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper button svg {
+	margin-right: 10px;
+	fill: #fff;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons button:last-of-type,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper button:last-of-type {
+	margin-right: 0;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons .tmjbd-comment-delete,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete {
+	float: right;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons .tmjbd-timer-cancel,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel {
+	background-color: #333;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons .tmjbd-timer-cancel svg,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel svg {
+	position: relative;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	fill: #fff;
+}
+
+.tmjbd-edit-comment.dark .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.dark .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	margin-top: 10px;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper {
+	margin: 10px 0;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons button,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper button {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px 20px;
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	background-color: #eee;
+	color: #000;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons button:hover,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper button:hover {
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons button:focus,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper button:focus {
+	text-decoration: none;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons button svg,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper button svg {
+	margin-right: 10px;
+	fill: #000;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons button:last-of-type,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper button:last-of-type {
+	margin-right: 0;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons .tmjbd-timer-cancel svg,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper .tmjbd-timer-cancel svg {
+	position: relative;
+	top: 3px;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	fill: #000;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons .tmjbd-comment-delete,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper .tmjbd-comment-delete {
+	float: right;
+}
+
+.tmjbd-edit-comment.light .tmjbd-comment-edit-buttons .tmjbd-timer,
+.tmjbd-edit-comment.light .tmjbd-timer-cancel-wrapper .tmjbd-timer {
+	margin-top: 10px;
+}
+
+.tmjbd-status {
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	border: 1px solid #e6e6e6;
+	padding: 8px 15px;
+    margin: 10px 0;
+	background-color: #d4edda;
+    color: #28a745;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.fl-comments .tmjbd-status::before {
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #28a745;
+    font-size: 22px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+}
+
+@media screen and (max-width: 575px){
+ .tmjbd-status{
+	font-size: 10px;
+ }
+}
+
+.tmjbd-status.error {
+	border-left-color: #dc3232;
+}
